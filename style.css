@@ -1,0 +1,90 @@
+
+body{
+   background-color: black;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+    
+}
+
+.navbar{
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    size: 1% !important;
+}
+
+.active{
+    color: yellow ;
+}
+
+a{
+    color: aliceblue !important;
+}
+
+.burger{
+   
+    font-size: 200px;
+    color: yellow ;
+    font-weight: 800 ;
+   
+}
+
+.box-1{
+    margin-top: 12% !important;
+    
+    text-align: center;
+}
+
+.love{
+    color: azure;
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.container{
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+}
+
+.userbtn{
+    width: 30% !important;
+    height: 9% !important;
+    background-color: yellow;
+    color: black;
+    margin-left: 5% !important;
+}
+
+.btnbox{
+    margin-left: 20% !important;
+}
+
+.card {
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    transition: 0.3s;
+    width:90%;
+    background-color:rgb(0, 0, 0) !important ;
+    margin-left:100%;
+    margin-top: 10%;
+    
+
+}
+
+.cardone{
+    width:59%;
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    transition: 0.3s;
+    background-color:rgb(0, 0, 0) !important;
+    margin-left:83%;
+    margin-top: 1%;
+}
+ 
+.bg{
+    font-weight: 1000;
+    font-size: 200%;
+    text-align: center;
+    color:yellow !important ;
+    background-color: black;
+}
+
+
+ 
