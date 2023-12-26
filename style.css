@@ -193,3 +193,7 @@ body{
     margin-left: 160%;
     size: 10%  ;
 }
+
+.btn btn-primary{
+   color: rgb(49, 35, 5) !important;
+}
