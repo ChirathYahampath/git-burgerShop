@@ -1,29 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 
 body{
-   background-color: black;
+   background-color: rgb(4, 4, 4);
     background-size: cover;
     background-position: center;
     box-sizing: border-box;
     
 }
 
+.paymentview{
+    background-color: rgb(175, 166, 98);
+
+}
+
+.Burgerimg{
+    background-image:url(assets/navwall.jpg);
+    height: 86.5vh;
+}
+
 .navbar{
     box-shadow: 0 0 10px rgb(255, 255, 255) !important;
     size: 1% !important;
+    background-color: black !important;
 }
 
 .active{
-    color: yellow ;
+    color: rgb(194, 194, 3);
 }
 
-a{
-    color: aliceblue !important;
-}
 
 .burger{
    
     font-size: 200px;
-    color: yellow ;
+    color: rgb(194, 194, 3);
     font-weight: 800 ;
    
 }
@@ -36,6 +48,7 @@ a{
 
 .love{
     color: azure;
+    font-style: italic;
     font-size: 20px;
     text-align: center;
 }
@@ -50,7 +63,7 @@ a{
     width: 30% !important;
     height: 9% !important;
     background-color: yellow;
-    color: black;
+    color: rgb(0, 0, 0);
     margin-left: 5% !important;
 }
 
@@ -69,22 +82,114 @@ a{
 
 }
 
+.cardmelts{
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    transition: 0.3s;
+    width:90%;
+    height:90%;
+    background-color:rgb(0, 0, 0) !important ;
+    margin-left:100%;
+    margin-top: 10%;
+}
+
 .cardone{
-    width:59%;
+    width:57%;
+    height: 99%;
     box-shadow: 0 0 10px rgb(255, 255, 255) !important;
     transition: 0.3s;
     background-color:rgb(0, 0, 0) !important;
-    margin-left:83%;
+    margin-left:84%;
     margin-top: 1%;
 }
- 
-.bg{
+
+.cardDrink{
+    width:57%;
+    height: 99%;
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    transition: 0.3s;
+    background-color:rgb(0, 0, 0) !important;
+    margin-left:84%;
+    margin-top: 1%;
+
+
+}
+.userbtnone{
     font-weight: 1000;
     font-size: 200%;
-    text-align: center;
-    color:yellow !important ;
-    background-color: black;
+    margin-left: 29%;
+    color:rgb(255, 255, 255) !important ;
+    background-color: rgb(0, 0, 0);
 }
 
+.userbtnsub{
+    font-weight: 1000;
+    font-size: 200%;
+    margin-left: 19%;
+    color:rgb(255, 255, 255) !important ;
+    background-color: rgb(0, 0, 0);
+    
+}
 
- 
+.userbtnmelts{
+    font-weight: 1000;
+    font-size: 200%;
+    margin-left: 35%;
+    color:rgb(255, 255, 255) !important ;
+    background-color: rgb(0, 0, 0);
+    margin-top: 45%  !important;
+}
+
+.userbtndrink{
+    font-weight: 1000;
+    font-size: 200%;
+    margin-left: 34%;
+    color:rgb(255, 255, 255) !important ;
+    background-color: rgb(0, 0, 0);
+    margin-top: 28%  !important;
+}
+
+.userbtnd{
+    font-weight: 1000;
+    font-size: 200%;
+    margin-left: 30%;
+    color:rgb(255, 255, 255) !important ;
+    background-color: rgb(0, 0, 0);
+    margin-top: 4%  !important;
+}
+
+.cardmany{
+    width:76%;
+    height: 103% !important;
+    box-shadow: 0 0 10px rgb(255, 255, 255) !important;
+    transition: 0.3s;
+    background-color:rgb(0, 0, 0) !important;
+    margin-left:123%;
+    margin-top: 12%;
+}
+
+.userbtnmany{
+    font-weight: 1000;
+    font-size: 140%;
+    margin-left: 20%;
+    color:rgb(255, 255, 255) !important ;
+    background-color: rgb(0, 0, 0);
+    margin-top:1%  !important;
+}
+
+.burgertopic{
+    margin-left: 35%;
+    font-size: 400%;
+    font-family:'Times New Roman', Times, serif;
+    color: rgb(194, 194, 3);
+    font-weight: 1000;
+
+}
+
+.price{
+    background-color: white;
+    margin-top: 120%;
+    width: 30%;
+    height: 40%;
+    margin-left: 160%;
+    size: 10%  ;
+}
